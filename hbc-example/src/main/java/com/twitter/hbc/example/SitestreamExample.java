@@ -100,6 +100,12 @@ public class SitestreamExample {
 
     @Override
     public void onException(Exception e) { }
+
+    @Override
+    public void onUserDeletion(long a, long b) { }
+
+    @Override
+    public void onUserSuspension(long a, long b) { }
   };
 
   public static void main(String[] args) {
